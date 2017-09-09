@@ -1,0 +1,119 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+body{
+	background: #ffffff;
+	font: 12px Tahoma, Arial;
+
+}
+
+/*
+
+			HEADER
+
+
+*/
+.wrapper{ 
+	width: 100%;
+	margin: 0 auto;
+	background: #ed1c24;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.35),inset 0px 3px 6px 0px rgba(0, 0, 0, 0.33);
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),0px -5px 35px rgba(255,255,255,0.3);
+
+
+}
+header{
+	width: 920px;
+	height: 35px;
+	margin: 0 auto;
+}
+
+.nav{
+    color: white;
+    text-decoration: none;
+}
+li{
+	display: inline;
+	float: center;
+	margin-top: 10px;
+	margin-left: 44px;
+	margin-right: 44px;
+	font-size: 25px;
+	font-family: "Baskerville";
+
+
+}
+.block1{
+	float: left;
+	width: 230px;
+	height: 35px; 
+
+}
+.block2{
+	position: relative;
+	right: 115px;
+	width: 230px;
+	height: 35px;
+	 
+
+}
+.block3{
+	position: relative;
+	top:-35px;
+	left: 115px;
+	width: 230px;
+	height: 35px; 
+
+}
+.block4{
+	position: relative;
+	top:-70px;
+	left: 345px;
+	width: 230px;
+	height: 35px;
+	background: #197b30; 
+
+}
+
+
+.block1:hover {background:#197b30;}
+.block1:hover a {color: red;
+			text-decoration: none;}
+
+.block2:hover {background:#197b30;}
+.block2: hover a {color: red;
+			text-decoration: none;}
+
+.block3:hover {background:#197b30;}
+.block3:hover a {color: red;
+			text-decoration: none;}
+
+
+.block4 a {color: red;
+			text-decoration: none;}
+.crew{
+	margin-top: 30px;
+}
+
+
+
+/*
+
+
+			MAIN
+
+
+*/
+main{
+	width: 920px;
+	margin: 0 auto;
+	height: 100%; 
+}
+p{
+	margin-top: 40px;
+	margin-right: 160px;
+	
+}
